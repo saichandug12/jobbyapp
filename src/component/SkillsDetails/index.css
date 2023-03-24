@@ -1,0 +1,17 @@
+.skills-image {
+  width: 15%;
+  margin-right: 15px;
+}
+
+.skills {
+  font-family: roboto;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  margin-bottom: 5%;
+}

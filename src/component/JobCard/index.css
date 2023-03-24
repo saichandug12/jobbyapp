@@ -1,0 +1,92 @@
+.list-card {
+  background-color: #202020;
+  border-radius: 15px;
+  padding: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.company-logo {
+  width: 10%;
+  margin-right: 10px;
+}
+
+.title {
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 30px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+
+.rating {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.package {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.icons {
+  color: #ffffff;
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.mini-headings {
+  font-family: roboto;
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 25px;
+}
+
+.location-package-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line {
+  border: 1px solid #b6c5ff;
+}
+
+.description-heading {
+  font-family: roboto;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.job-description {
+  font-family: roboto;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 25px;
+}
+
+.link-styles {
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,130 @@
+.search-input {
+  width: 250px;
+  height: 35px;
+  padding: 10px;
+  border-style: solid;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-width: 1px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #ffffff;
+  border-right: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  outline: none;
+}
+
+.search-btn {
+  background-color: #202020;
+  color: #ffffff;
+  border: 1px solid #7e858e;
+  height: 35px;
+  width: 50px;
+  border-left: none;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  cursor: pointer;
+}
+
+.list-styles {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.job-flex-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-family: roboto;
+  font-size: 22px;
+  color: #6366f1;
+  font-weight: 600;
+}
+
+.bio {
+  color: #2c364c;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+.filter-container {
+  width: 100%;
+  margin-right: 40px;
+  padding: 20px;
+}
+
+.job-items-container {
+  width: 300%;
+}
+
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+.no-jobs {
+  width: 400px;
+}
+.no-jobs-heading {
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #fff;
+}
+.no-jobs-desc {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #fff;
+}
+
+.profile-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-heading {
+  font-size: 42px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #fff;
+}
+.failure-desc {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #fff;
+}
+.jobs-failure-button {
+  background-color: #4f46e5;
+  border: none;
+  width: 130px;
+  padding: 12px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #fff;
+  border-radius: 8px;
+}

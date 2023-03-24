@@ -1,0 +1,73 @@
+.job-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.job-card {
+  background-color: #202020;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.logo-company {
+  width: 5%;
+  margin-right: 15px;
+}
+
+.job-item-headings {
+  font-family: roboto;
+  font-size: 28px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.job-item-description {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 40px;
+}
+
+.skills-list-styles {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.visit-icon {
+  color: #6366f1;
+  font-size: 20px;
+}
+
+.anchor-link {
+  font-family: roboto;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #6366f1;
+}
+
+.anchor-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-image {
+  width: 130%;
+  margin-left: 8%;
+}
+
+.similar-job-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
